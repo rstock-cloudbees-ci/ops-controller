@@ -1,13 +1,13 @@
 apiVersion: "1"
-version: "1"
-id: "rstock-cloudbees-ci-ops-controller"
-description: "CloudBees CI configuration bundle for the rstock-cloudbees-ci ops-controller Controller"
-availabilityPattern: "cloudbees-ci-casc-workshop/rstock-cloudbees-ci/ops-controller"
+version: "3"
+id: "cbci-casc-workshop-ops-controller"
+description: "CloudBees CI configuration bundle for the cbci-casc-workshop ops-controller Controller"
+availabilityPattern: "{GitHub Org}/{controller name}"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
-items:
-  - "items.yaml"
 catalog:
   - "plugin-catalog.yaml"
+items:
+  - "items.yaml"
